@@ -411,13 +411,10 @@ section {
   margin: 0 auto;
 }
 .venue-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px;
-  max-width: 1200px;
-  margin: 0 auto;
+  text-align: center;
 }
 .venue-card {
+  text-align: center;
   background: var(--ivory-mid);
   padding: 4rem;
   position: relative;
@@ -469,10 +466,8 @@ section {
   color: var(--charcoal);
 }
 .venue-detail {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 0.9rem;
+  justify-content: center;
+  text-align: center;
 }
 .venue-detail-icon {
   width: 16px;
@@ -1227,47 +1222,7 @@ footer {
   </div>
 
   <div class="venue-cards">
-    <!-- Ceremony Card -->
-    <div class="venue-card">
-      <div class="venue-card-image">
-        <img
-          src="https://storage.pubble.nl/96897487/content/2024/4/e1da05a3-385c-4bfa-a92a-e6e44a22a1c0_thumb1920.jpg"
-          alt="Ceremonie locatie / Ceremony venue"
-        >
-      </div>
-      <div class="venue-number en">Location 1</div>
-      <div class="venue-number zh">场地 1</div>
-      <p class="venue-type en">Ceremony &amp; Reception</p>
-      <p class="venue-type zh">仪式与午宴</p>
-      <h3 class="venue-name en">Kasteel De Hooge Vuursche<br></h3>
-      <h3 class="venue-name zh">Kasteel De Hooge Vuursche<br></h3>
-
-      <div class="venue-detail">
-        <span class="venue-detail-icon">◷</span>
-        <span class="venue-detail-text en">Arrivals from 12:00 · Ceremony at 14:00</em></span>
-        <span class="venue-detail-text zh">来宾入场：中午十二点起 · 仪式开始：下午二点整</em></span>
-      </div>
-      <div class="venue-detail">
-        <span class="venue-detail-icon">◉</span>
-        <span class="venue-detail-text">Hilversumsestraatweg 14, 3744 KC Baarn</span>
-      </div>
-      <div class="venue-detail">
-        <span class="venue-detail-icon">❧</span>
-        <span class="venue-detail-text en">Free parking available on site</span>
-        <span class="venue-detail-text zh">现场提供免费停车位</span>
-      </div>
-
-      <a
-        href="https://maps.app.goo.gl/2kvawbYK2eSgAmjAA"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="venue-map-link"
-      >
-        <span class="en">Open navigation to the venue→</span>
-        <span class="zh">请点击此处开启前往场地的导航 →</span>
-      </a>
-    </div>
-
+  
     <!-- Party Card -->
     <div class="venue-card">
       <div class="venue-card-image">
@@ -1334,76 +1289,7 @@ footer {
     </div>
 
     <div class="timeline">
-      <!-- Item 1 -->
-      <div class="timeline-item">
-        <div class="timeline-time">12:00</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <p class="timeline-event-label en">Arrival</p>
-          <p class="timeline-event-label zh">迎宾</p>
-          <h3 class="timeline-event-title en">Welcome &amp; Arrival Drinks</h3>
-          <h3 class="timeline-event-title zh">恭候来宾</h3>
-          <p class="timeline-event-desc en">Guests are welcomed at the beautiful castle of Hooge Vuursche in Baarn.</p>
-          <p class="timeline-event-desc zh">诚挚欢迎各位贵宾莅临位于巴恩的美丽 Hooge Vuursche 城堡。</p>
-        </div>
-      </div>
 
-      <!-- Item 2 -->
-      <div class="timeline-item">
-        <div class="timeline-time">12:30</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <p class="timeline-event-label en">Lunch</p>
-          <p class="timeline-event-label zh">午餐</p>
-          <h3 class="timeline-event-title en">Lunch Hosted at the Castle</h3>
-          <h3 class="timeline-event-title zh">婚庆午宴</h3>
-          <p class="timeline-event-desc en">Delicious sandwiches, finger foods and drinks will be served.</p>
-          <p class="timeline-event-desc zh">将为宾客提供精致三明治、小食及饮品。</p>
-        </div>
-      </div>
-
-      <!-- Item 2 -->
-      <div class="timeline-item">
-        <div class="timeline-time">14:00</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <p class="timeline-event-label en">Ceremony</p>
-          <p class="timeline-event-label zh">仪式</p>
-          <h3 class="timeline-event-title en">The Wedding Ceremony</h3>
-          <h3 class="timeline-event-title zh">婚礼仪式</h3>
-          <p class="timeline-event-desc en">Join us as we exchange vows and begin our next chapter.</p>
-          <p class="timeline-event-desc zh">诚邀您与我们一同见证新人秦晋之好，开启人生新的篇章。</p>
-        </div>
-      </div>
-
-
-      <!-- Item 3 -->
-      <div class="timeline-item">
-        <div class="timeline-time">15:00</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <p class="timeline-event-label en">Reception</p>
-          <p class="timeline-event-label zh">婚庆</p>
-          <h3 class="timeline-event-title en">Raise your glass!</h3>
-          <h3 class="timeline-event-title zh">请举杯同庆</h3>
-          <p class="timeline-event-desc en">A toast to the newly weds.</p>
-          <p class="timeline-event-desc zh">祝贺新人百年好合,白头皆老,早生贵子！</p>
-        </div>
-      </div>
-
-      <!-- Item 4 -->
-      <div class="timeline-item">
-        <div class="timeline-time">16:30</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <p class="timeline-event-label en">Transfer</p>
-          <p class="timeline-event-label zh">赴宴</p>
-          <h3 class="timeline-event-title en">To Amersfoort</h3>
-          <h3 class="timeline-event-title zh">前往 Amersfoort</h3>
-          <p class="timeline-event-desc en">We will now make our way to Amersfoort for next part of the celebration. Please plan your own transportation ahead of time, as transportation to the next venue is not provided.</p>
-          <p class="timeline-event-desc zh">我们将前往阿默斯福特继续接下来的婚庆活动。由于不提供前往下一场地的交通服务，敬请宾客提前安排好自己的交通方式。</p>
-        </div>
-      </div>
 
       <!-- Item 5 -->
       <div class="timeline-item">
@@ -1505,6 +1391,48 @@ footer {
   </div>
 </section> -->
 
+
+<!-- ============================================================
+     RULES
+     ============================================================ -->
+
+<section id="rules">
+  <div class="rules-inner">
+  <div class="rules-header">
+
+    <div class="en">
+      <h2 class="rules-lg" style="color:var(--wine); margin-bottom:1rem;">Good to know</h2>
+
+      <div class="rules-notes">
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Guestbook</h3>
+        <p class="rules-text" >A guestbook will be placed at the entrance of the wedding dinner venue. We’d love for you to sign it and leave us a message.</p>
+
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Photobooth Fun</h3>
+        <p class="rules-text">We’ll have a photobooth during the celebration, please enjoy it and capture some memories with us.</p>
+
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Dress Etiquette</h3>
+        <p class="rules-text">As part of our wedding customs, we kindly ask guests to avoid wearing white, black or red accessories, such as jewelry and ties. Thank you for helping us honour this tradition.</p>
+      </div>
+    </div>
+
+    <div class="zh">
+      <h2 class="rules-lg" style="color:var(--wine); margin-bottom:1rem;">宾客须知</h2>
+
+      <div class="rules-notes">
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">留言簿</h3>
+        <p class="rules-text">婚宴入口处将放置留言簿，诚挚邀请您写下祝福与留言。</p>
+
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">拍照留念</h3>
+        <p class="rules-text">现场将设有拍照亭，欢迎大家尽情拍照，留下美好回忆。</p>
+
+        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">着装礼仪</h3>
+        <p class="rules-text">依照婚礼习俗，敬请宾客避免配戴白色或黑色首饰。感谢您与我们一同尊重传统。</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- ============================================================
      9. RSVP
      ============================================================ -->
@@ -1568,53 +1496,14 @@ footer {
     <div class="form-group full-width">
       <label class="form-label" for="name">
         <span class="en">Will you be attending?</span>
-        <span class="zh">姓名 *</span>
+        <span class="zh">您会来参加吗？ *</span>
       </label>
       
     </div>
 
 <div class="two-column-wrapper">
 
-  <!-- LEFT COPY -->
-  <div class="column">
 
-      <label class="form-label" for="name">
-        <span class="en">Wedding ceremony? *</span>
-        <span class="zh">婚礼仪式 *</span>
-      </label>
-
-    <label class="radio-item">
-      <input 
-        type="radio" 
-        name="entry.877086558" 
-        value="Yes, I'll be there!" 
-        required
-      >
-  <span class="en">Yes, I'll be there!</span>
-  <span class="zh">是的，我会参加</span>
-    </label>
-
-    <label class="radio-item">
-      <input 
-        type="radio" 
-        name="entry.877086558" 
-        value="Unfortunately I can't make it"
-      >
-      
-  <span class="en">Unfortunately I can't make it</span>
-  <span class="zh">很遗憾，我无法出席</span>
-    </label>
-
-    <input type="hidden" name="entry.877086558_sentinel" value="">
-  </div>
-
-  <!-- RIGHT COPY -->
-  <div class="column">
-
-      <label class="form-label" for="name">
-        <span class="en">Wedding dinner? *</span>
-        <span class="zh">婚宴晚餐 *</span>
-      </label>
     <label class="radio-item">
       <input 
         type="radio" 
@@ -1637,7 +1526,7 @@ footer {
     </label>
 
     <input type="hidden" name="entry.1784089560_sentinel" value="">
-  </div>
+
 
 </div>
 
@@ -1699,46 +1588,6 @@ footer {
 
    
 
-<!-- ============================================================
-     RULES
-     ============================================================ -->
-
-<section id="rules">
-  <div class="rules-inner">
-  <div class="rules-header">
-
-    <div class="en">
-      <h2 class="rules-lg" style="color:var(--wine); margin-bottom:1rem;">Good to know</h2>
-
-      <div class="rules-notes">
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Guestbook</h3>
-        <p class="rules-text" >A guestbook will be placed at the entrance of the wedding dinner venue. We’d love for you to sign it and leave us a message.</p>
-
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Photobooth Fun</h3>
-        <p class="rules-text">We’ll have a photobooth during the celebration, please enjoy it and capture some memories with us.</p>
-
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">Dress Etiquette</h3>
-        <p class="rules-text">As part of our wedding customs, we kindly ask guests to avoid wearing white, black or red accessories, such as jewelry and ties. Thank you for helping us honour this tradition.</p>
-      </div>
-    </div>
-
-    <div class="zh">
-      <h2 class="rules-lg" style="color:var(--wine); margin-bottom:1rem;">宾客须知</h2>
-
-      <div class="rules-notes">
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">留言簿</h3>
-        <p class="rules-text">婚宴入口处将放置留言簿，诚挚邀请您写下祝福与留言。</p>
-
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">拍照留念</h3>
-        <p class="rules-text">现场将设有拍照亭，欢迎大家尽情拍照，留下美好回忆。</p>
-
-        <h3 class="rules-sm" style="color:var(--wine); margin-top:1.5rem;">着装礼仪</h3>
-        <p class="rules-text">依照婚礼习俗，敬请宾客避免配戴白色或黑色首饰。感谢您与我们一同尊重传统。</p>
-      </div>
-    </div>
-
-  </div>
-</section>
 
 <!-- ============================================================
      FOOTER
